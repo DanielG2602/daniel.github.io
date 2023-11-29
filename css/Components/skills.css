@@ -1,11 +1,14 @@
 .skills {
-    background-color: var(--light-tertiary-color);
+    background-color: var(--white);
     scroll-margin-top: 15rem;
 }
 
 .skills .skills__content {
     padding: 6rem 4rem;
     text-align: center;
+}
+.skills .skills__content h2 {
+    color: var(--dark-secondary-color);
 }
 
 .skills .skills__content .description {
@@ -20,7 +23,7 @@
 }
 
 .skills .skills__content ul li .image-container {
-    background-color: var(--white);
+    background-color: var(--my);
     padding: 2rem;
     border-radius: 50%;
     width: 7rem;
@@ -28,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.4rem 1rem rgba(39,39,39);
     margin: auto;
 }
 
